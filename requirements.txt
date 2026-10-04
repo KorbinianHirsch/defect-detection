@@ -1,0 +1,28 @@
+# Core
+numpy
+pillow
+opencv-python-headless
+scikit-learn
+scikit-image
+matplotlib
+tqdm
+requests
+
+# Deep learning
+torch
+torchvision
+timm
+
+# API / serving
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+streamlit
+
+# Notebooks
+jupyter
+
+# Testing
+pytest
+httpx

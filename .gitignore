@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.claude/
+data/*
+!data/.gitkeep
+*.tar.xz
+*.pt
+*.pth
+*.log
+*.db
+.env

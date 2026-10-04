@@ -1,0 +1,17 @@
+{
+  "category": "bottle",
+  "threshold": 28.556089210510255,
+  "confusion_matrix": {
+    "tp": 63,
+    "fn": 0,
+    "tn": 18,
+    "fp": 2
+  },
+  "precision": 0.9692307692307692,
+  "recall": 1.0,
+  "recall_per_defect_type": {
+    "broken_large": 1.0,
+    "broken_small": 1.0,
+    "contamination": 1.0
+  }
+}

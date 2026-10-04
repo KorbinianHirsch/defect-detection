@@ -1,0 +1,19 @@
+{
+  "category": "screw",
+  "threshold": 35.155021286010744,
+  "confusion_matrix": {
+    "tp": 80,
+    "fn": 39,
+    "tn": 40,
+    "fp": 1
+  },
+  "precision": 0.9876543209876543,
+  "recall": 0.6722689075630253,
+  "recall_per_defect_type": {
+    "manipulated_front": 0.7083333333333334,
+    "scratch_head": 0.5833333333333334,
+    "scratch_neck": 0.92,
+    "thread_side": 0.391304347826087,
+    "thread_top": 0.7391304347826086
+  }
+}

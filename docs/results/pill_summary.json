@@ -1,0 +1,21 @@
+{
+  "category": "pill",
+  "threshold": 35.87846145629883,
+  "confusion_matrix": {
+    "tp": 123,
+    "fn": 18,
+    "tn": 24,
+    "fp": 2
+  },
+  "precision": 0.984,
+  "recall": 0.8723404255319149,
+  "recall_per_defect_type": {
+    "color": 0.76,
+    "combined": 0.9411764705882353,
+    "contamination": 0.9047619047619048,
+    "crack": 0.7692307692307693,
+    "faulty_imprint": 1.0,
+    "pill_type": 1.0,
+    "scratch": 0.875
+  }
+}
