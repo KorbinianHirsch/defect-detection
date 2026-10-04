@@ -1,4 +1,4 @@
-# Self-Supervised Defect Detection
+# Unsupervised Defect Detection
 
 Anomaly detection for visual quality control, trained only on defect-free
 ("good") images. The model learns the distribution of normal parts and

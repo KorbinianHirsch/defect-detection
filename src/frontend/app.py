@@ -15,7 +15,7 @@ import streamlit as st
 API_URL = os.environ.get("DEFECT_API_URL", "http://127.0.0.1:8000")
 
 st.set_page_config(page_title="Defect Detection", page_icon="🔍", layout="centered")
-st.title("🔍 Self-Supervised Defect Detection")
+st.title("🔍 Unsupervised Defect Detection")
 st.caption(
     "PatchCore anomaly detection, trained only on defect-free images. "
     "Upload a product photo to get an anomaly score and a localization heatmap."

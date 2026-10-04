@@ -2,7 +2,7 @@
 
 ## Overview
 
-Self-supervised anomaly detection for visual quality control. Trained only
+Unsupervised (one-class) anomaly detection for visual quality control. Trained only
 on defect-free ("good") images per category; flags and localizes deviations
 at test time. Method: pretrained WideResNet50 mid-level patch features +
 a 2%-coreset memory bank, scored by nearest-neighbor distance ([src/models/patchcore.py](src/models/patchcore.py)).

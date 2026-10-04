@@ -1,6 +1,6 @@
 """PyTorch Datasets for MVTec AD.
 
-Train split (`train/good`) is unlabeled -- self-supervised setup, only
+Train split (`train/good`) is unlabeled -- unsupervised one-class setup, only
 normal samples. Test split (`test/*`) carries a good/anomaly label per
 image and, for anomalous images, a pixel-level ground-truth mask.
 """
